@@ -1,0 +1,34 @@
+
+
+.new-tweet textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid black;
+    background-color: transparent;
+}
+main.container {
+    display: flex;
+    justify-content: space-between;
+    /*justify-items: stretch;*/
+}
+
+.new-tweet {
+    width: 100%;
+    /*max-width: 600px;*/
+}
+
+.new-tweet textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.new-tweet > form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tweet-button {
+    font-family: 'Bungee', sans-serif;
+    color: #FFFFFF;
+    background-color: #4056A1;
+}

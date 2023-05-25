@@ -1,0 +1,19 @@
+
+@media (max-width: 1023px) {
+    nav {
+        display: none;
+    }
+
+}
+
+/* Styles for screens equal to or wider than 1024px */
+/*@media screen and (min-width: 1024px) {*/
+/*    nav {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    body {*/
+/*        !*display: flex;*!*/
+/*        !*flex-direction: row;*!*/
+/*    }*/
+/*}*/
