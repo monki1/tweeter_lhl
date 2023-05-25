@@ -23,12 +23,18 @@ main.container {
 }
 
 .new-tweet > form > div {
+    font-family: 'Bungee', sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
 #tweet-button {
-    font-family: 'Bungee', sans-serif;
+
     color: #FFFFFF;
     background-color: #4056A1;
 }
+
+.counter-over-limit {
+    color: red;
+}
+
