@@ -1,0 +1,20 @@
+#profile-header {
+    height: 400px;
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBC05C;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+    color: #FFFFFF;
+}
+
+#profile-header img {
+    width: 200px;
+    height: 200px;
+}
+
+header h2 {
+    margin-top: 0;
+}
