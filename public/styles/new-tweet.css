@@ -6,11 +6,7 @@
     border-bottom: 5px solid black;
     background-color: transparent;
 }
-main.container {
-    display: flex;
-    justify-content: space-between;
-    /*justify-items: stretch;*/
-}
+
 
 .new-tweet {
     width: 100%;

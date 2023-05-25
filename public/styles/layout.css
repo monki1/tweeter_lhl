@@ -33,5 +33,9 @@ body {
 main {
   width: 90%;
   margin:0% 5% 0% 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
+
 
