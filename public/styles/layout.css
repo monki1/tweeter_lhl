@@ -6,7 +6,10 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -21,6 +24,7 @@ body {
   /* apply font to body */
   font-family: 'Bungee', cursive;
   font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 /*
