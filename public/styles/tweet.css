@@ -50,6 +50,10 @@
     padding: 0 1em;
 }
 
+.tweet-actions > i:hover {
+    color: orange;
+}
+
 .user-profile .user-name{
     padding-left: 1em;
 }
