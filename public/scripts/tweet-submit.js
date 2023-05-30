@@ -13,9 +13,16 @@ const tweetSubmitFormListener = function() {
       const textarea = $(`#tweet-text`);
     
       if (!tweetCounterValidation() || textarea.val() === "") {
-        alert("no");
+        // alert("no");
+        $("#error-div").text("validation error");
+
+        // Show the error element with a slide down animation
+        $("#error-div")
+        $("#error-div").slideDown();
         return;
       }
+      $("#error-div").slideUp();
+      // $("#error-container").;
 
 
       // console.log(serializedData);
